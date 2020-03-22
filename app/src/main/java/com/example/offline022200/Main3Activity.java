@@ -11,7 +11,7 @@ import android.widget.TableLayout;
 public class Main3Activity extends AppCompatActivity {
 
     private boolean tbl_flg = false;
-    ///////
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
