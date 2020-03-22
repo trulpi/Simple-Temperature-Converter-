@@ -33,17 +33,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="cancel"
-        android:textStyle="bold"
+
         android:layout_x="250px"
-        android:layout_y="800px"/>
+        android:layout_y="800px"
+        android:background="#220707"/>
 
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="go"
-        android:textStyle="bold"
+
         android:layout_x="600px"
         android:layout_y="800px"
+        android:background="#220707"
         />
 </AbsoluteLayout>

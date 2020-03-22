@@ -38,7 +38,9 @@
             android:text="Done!"
             android:textSize="30dp"
             android:textStyle="bold"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center"
+            android:layout_marginTop="101dp"
+            android:textAlignment="center"/>
     </FrameLayout>
 
 

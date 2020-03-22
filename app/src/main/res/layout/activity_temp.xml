@@ -5,6 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Temp"
+    android:background="@drawable/gradient"
+    android:layout_centerHorizontal="true"
     android:orientation="vertical">
 
 
@@ -39,6 +41,7 @@
         android:layout_marginTop="55dp"
         android:textSize="25dp"
         android:layout_gravity="center"
+        android:background="#220707"
         android:textAllCaps="false"
         />
 
@@ -51,6 +54,7 @@
         android:layout_marginTop="30dp"
         android:textSize="25dp"
         android:layout_gravity="center"
+        android:background="#220707"
         android:textAllCaps="false"
         />
 

@@ -5,13 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Main3Activity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    android:layout_centerHorizontal="true">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
         android:text="Group 8"
         android:textStyle="italic"
         android:textSize="30dp"
@@ -24,7 +25,7 @@
         android:layout_height="wrap_content"
 
         android:layout_marginTop="20dp"
-        android:text="Groupmember's info"
+        android:text="Groupmember's Info"
         android:textSize="30dp"
         android:textStyle="italic"
         android:textAlignment="center"/>
@@ -125,7 +126,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="#0E0D0D"
-                android:text="tahmidjawad@gmail.com"
+                android:text="tjawad98@gmail.com"
                 android:layout_weight="1"
                 android:layout_gravity="center"
                 android:background="#ffff"
@@ -159,18 +160,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="#0E0D0D"
-                android:text="...@gmail.com"
+                android:text="sandik55575@gmail.com"
                 android:layout_weight="1"
                 android:layout_gravity="center"
-                android:background="#ffff"
+                android:background="#FFFFFF"
                 android:layout_marginHorizontal="1dp"
                 android:layout_marginBottom="1dp" />
 
 
         </TableRow>
-
-
-
     </TableLayout>
 
     <Button
@@ -180,14 +178,16 @@
         android:layout_gravity="center"
         android:onClick="collapseTable"
         android:text="Show Detail"
-        android:textAllCaps="false" />
+        android:textAllCaps="false"
+        android:background="#220707"/>
 
     <Button
         android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Next"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:background="#220707"/>
 
 
 </LinearLayout>
