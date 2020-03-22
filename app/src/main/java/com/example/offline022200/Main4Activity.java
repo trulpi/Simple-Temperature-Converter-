@@ -19,14 +19,14 @@ public class Main4Activity extends AppCompatActivity {
         btn6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                back();
+                Back();
             }
         });
 
 
     }
 
-    public void back(){
+    public void Back(){
         Intent in = new Intent(this,MainActivity.class);
         startActivity(in);
     }
